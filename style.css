@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Hepta+Slab|Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
 
 html {
   box-sizing: border-box;
@@ -18,8 +20,8 @@ html {
 /* Styling Variables */
 :root {
   --accent-color: #555;
-  --body-typeface: "Rubik", sans-serif;
-  --main-heading: "Staatliches", cursive;
+  --body-typeface: "Chivo", sans-serif;
+  --main-heading: "Arimo", sans-serif;
   --gradient: linear-gradient(45deg, #F17C58, #E94584, #24AADB, #27DBB1, #FFDC18, #FF3706);
 }
 
@@ -226,3 +228,5 @@ p {
       #ff057c 0%,
       #8d0b93 50%,
       #321575 100%);
+      padding: 1em;
+    }
